@@ -1,0 +1,464 @@
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+/* début barre de nav*/
+
+header .logo{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+header .logo img{
+    width: 250px;
+    height: 60px;
+}
+header .barre-nav div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    background-color: #F2F2F2;
+    border-bottom: #B14949 solid 6px;
+}
+header .barre-nav a{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    font-weight:bold;
+    color: #444444;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+header .barre-nav .boutton-nav .boutique{
+    color: #B14949;
+    border: 2px #B14949 solid;
+    border-radius: 5px;
+}
+
+/*fin barre de nav*/
+
+/*début Main*/
+
+/*page1*/
+
+main .page1{
+    background-color: #444444;
+    background-image: url(images/bakground.jpg);
+    background-size: 100%;
+    height: 64vw;
+    background-repeat: no-repeat;
+    color:#F2F2F2;
+    font-weight: bold;
+}
+
+main .page1 .texte1et2{
+    display: inline-block;
+    font-size: 5vw;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 38%;
+    margin-left: 26%;
+    width: 75%;
+}
+main .page1 .texte1et2 .phrase {
+    line-height: 0.2;
+    text-align: center;
+}
+
+main .page1 .texte1et2 .phrase span {
+    display: inline-block;
+    position: relative;
+}
+
+main .page1 .texte1et2 .phrase span:before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-bottom: 10px solid #F2F2F2;
+    right: 100%;
+    margin-right: 15px;
+    top: 0;
+    width: 30%;
+  }
+/*page2*/
+main .page2 .barre-nav2{
+    height: 70px;
+    background-color: #B14949;
+    letter-spacing: 9px;
+    font-size: 110%;
+    font-weight: bold;
+    color: #F2F2F2;
+    margin: 0px;
+}
+
+main .page2 .barre-nav2 .title{
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.page2 .texteetphoto{
+    display: flex;
+}
+
+.page2 .texteetphoto .textes123{
+    margin: 50px;
+}
+.page2 .texteetphoto .photos{
+    margin: 50px;
+}
+
+.page2 .texteetphoto .photos .photo12{
+    height: 60%;
+    width: 49%;
+
+}
+.page2 .texteetphoto .photos .photo3{
+    height: 33%;
+    width: 99%;
+}
+
+.page2 .texteetphoto .textes123 div h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.page2 .texteetphoto .textes123 div p{
+    word-spacing: 2px;
+    font-size: 150%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-align: justify;
+    line-height: 50px;
+}
+/*trait ligne1*/
+
+main .page2 .texteetphoto .textes123 div .titre1 span:after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid #B14949;
+    left: 102%;
+    top: 0;
+    width: 93%;
+  }
+main .page2 .texteetphoto .textes123 div .titre1 span {
+    display: inline-block;
+    position: relative;
+}
+main .page2 .texteetphoto .textes123 div .titre1 {
+    line-height: 0.2;
+    text-align: left;
+}
+
+/*trait ligne 2*/
+main .page2 .texteetphoto .textes123 div .titre2 span:before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid #B14949;
+    right: 102%;
+    top: 0;
+    width: 93%;
+  }
+main .page2 .texteetphoto .textes123 div .titre2 span {
+    display: inline-block;
+    position: relative;
+}
+main .page2 .texteetphoto .textes123 div .titre2 {
+    line-height: 0.2;
+    text-align: right;
+}
+/*trait ligne 3*/
+main .page2 .texteetphoto .textes123 div .titre3 span::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid #B14949;
+    left: 102%;
+    top: 0;
+    width: 93%;
+  }
+main .page2 .texteetphoto .textes123 div .titre3 span {
+    display: inline-block;
+    position: relative;
+}
+main .page2 .texteetphoto .textes123 div .titre3 {
+    line-height: 0.2;
+    text-align: left;
+}
+
+/*page3*/
+main .page3 .barre-nav3{
+    height: 70px;
+    background-color: #B14949;
+    letter-spacing: 9px;
+    font-size: 110%;
+    font-weight: bold;
+    color: #F2F2F2;
+    margin: 0px;
+}
+
+main .page3 .barre-nav3 .title{
+    text-align: end;
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+main .page3 .texte1 .titre1 span:after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid #B14949;
+    left: 102%;
+    top: 0;
+    width: 21vw;
+  }
+main .page3 .texte1  .titre1 span {
+    display: inline-block;
+    position: relative;
+}
+main .page3 .texte1  .titre1 {
+    line-height: 0.2;
+    text-align: center;
+    padding-right: 20%;
+    padding-top: 2%;
+}
+.page3 .texte1 h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+.page3 .texte1 p{
+    word-spacing: 2px;
+    font-size: 150%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-align: justify;
+    line-height: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.page3 .cartes{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page3 .cartes .guitare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 379px;
+
+}
+.page3 .cartes .guitare img{
+    width: 50%;
+    height: 60%;
+}
+.page3 .cartes .guitare .nomguitare{
+    font-weight: bold;
+}
+.page3 .cartes .guitare .prix span{
+    text-decoration: line-through;
+    padding-right: 30px;
+}
+.page3 .cartes .guitare button{
+    background-color: #B14949;
+    color: #F2F2F2;
+    font-weight: bold;
+    border: 1px #B14949 solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+/*page 4*/
+main .page4 .barre-nav4{
+    height: 70px;
+    background-color: #B14949;
+    letter-spacing: 9px;
+    font-size: 110%;
+    font-weight: bold;
+    color: #F2F2F2;
+    margin: 0px;
+}
+main .page4 .barre-nav4 .contact{
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+main .page4 .titre span:before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid #B14949;
+    right: 102%;
+    top: 0;
+    width: 6vw;
+  }
+main .page4 .titre span{
+    display: inline-block;
+    position: relative;
+}
+main .page4 .titre{
+    line-height: 0.2;
+    text-align: center;
+}
+
+.page4 .formulaire{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.page4 .formulaire p{
+    font-size:x-small;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.page4 .formulaire input{
+    border: #B14949 solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.page4 .formulaire .emailphone{
+    display:flex;
+} 
+.page4 .formulaire div{
+    margin: 1%;
+}
+.page4 .formulaire .message{
+    height: 35vh;
+    width: 30%;
+}
+
+.page4 .formulaire .message input{
+width: 96%;
+height: 90%;
+}
+.page4 .formulaire .submit button{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #F2F2F2;
+    background-color: #B14949;
+    border: #B14949 solid 1px;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+.page4 .formulaire .submit{
+margin-left: 12%;
+}
+.page4 hr{
+    border: none;
+    border-top: 3px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  	width: 100%;
+}
+
+/* Media queries à partir de là */
+
+@media screen and (max-width:1000px) {
+    header .barre-nav a{
+        margin: 0px;
+        font-size: 10px;
+    }        
+    header .barre-nav div{
+        height: 70px;
+    }
+    .page2 .texteetphoto .textes123 div h2{
+        font-size: 50%;
+    } 
+    .page2 .texteetphoto .photos .photo12{
+        height: 26%;
+        width: 100%;
+    
+    }
+    .page2 .texteetphoto .photos .photo3{
+        height: 25%;
+        width: 100%;
+    } 
+}
+@media screen and (max-width:650px) {
+    .page2 .texteetphoto .photos .photo12{
+        height: 25%;
+        width: 100%;
+    
+    }
+    .page2 .texteetphoto .photos .photo3{
+        height: 15%;
+        width: 100%;
+    } 
+    .page2 .texteetphoto .textes123 div p{
+        font-size: 83%;
+    }
+    .page2 .texteetphoto .textes123 {
+        margin: 20px;
+    }
+    .page2 .texteetphoto .photos {
+        margin: 20px;
+}
+
+
+
+@media screen and (max-width:580px) {
+    header .barre-nav .boutton-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    header .barre-nav a{
+        font-size: 5px;
+    } 
+    header .barre-nav div{
+        height: 55px;
+    }
+    header .logo img{
+        width: 150px;
+        height: 40px;
+    }
+    .page3 .texte1 p {
+        font-size: 100%;
+    }
+    main .page3 .texte1 .titre1{
+        font-size: 105%;
+    }   
+    .page2 .texteetphoto .textes123 div h2{
+        font-size: 50%;
+    }  
+    .page2 .texteetphoto .photos{
+        margin: 0px;
+        margin-top: 165px;
+    }
+    .page2 .texteetphoto .photos .photo12{
+        height: 25%;
+        width: 100%;
+        
+    
+    }
+    .page2 .texteetphoto .photos .photo3{
+        height: 17%;
+        width: 100%;
+    } 
+    .page2 .texteetphoto .textes123 div span:before{
+        display: none;
+    }
+    .page2 .texteetphoto .textes123 div p {
+        font-size: 70%;
+        line-height: 20px;
+}
+    
